@@ -6,16 +6,15 @@ README.md
 mmc-pack.json
 
 # Ignore a specific folder
-.git
-minecraft\downloads
-minecraft\logs
-minecraft\mods
-minecraft\resourcepacks
-minecraft\saves
-minecraft\screenshots
-minecraft\server-resource-packs
-minecraft\shaderpacks
-minecraft\texturepacks
+\downloads
+\logs
+\mods
+\resourcepacks
+\saves
+\screenshots
+server-resource-packs
+\shaderpacks
+\texturepacks
 
 # Ignore all files with an extension
 ##*.log
