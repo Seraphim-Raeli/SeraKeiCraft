@@ -1,0 +1,31 @@
+# Comments start with #
+
+# Ignore a specific file
+instance.cfg
+README.md
+mmc-pack.json
+
+# Ignore a specific folder
+.git
+minecraft\downloads
+minecraft\logs
+minecraft\mods
+minecraft\resourcepacks
+minecraft\saves
+minecraft\screenshots
+minecraft\server-resource-packs
+minecraft\shaderpacks
+minecraft\texturepacks
+
+# Ignore all files with an extension
+##*.log
+
+# Ignore all files in any folder named "temp"
+##**/temp/
+
+# Ignore everything in a folder EXCEPT one file (negation)
+##build/*
+##!build/keep-this.txt
+
+# Ignore a file only in the root, not subfolders
+##/config.local.json
